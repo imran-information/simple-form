@@ -8,8 +8,8 @@ const SimpleForm = () => {
 
     }
     return (
-        <div className="flex flex-row justify-center my-16">
-            <form onSubmit={handleSimpleForm} className="border p-20">
+        <div className="flex flex-row justify-center my-16 ">
+            <form onSubmit={handleSimpleForm} className="border p-20 bg-green-100">
                 <input className="border my-2 p-2 rounded" name="text" type="text" placeholder="Enter Your Name" />
                 <br />
                 <input className="border my-2 p-2 rounded" type="email" name="email" placeholder="Enter Your Name" />
